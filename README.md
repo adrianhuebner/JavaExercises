@@ -26,3 +26,18 @@
 - Create a method that takes in two doubles and return a boolean
     - True if two double numbers are the same up to three decimals
     - False if the two double numbers do not have the same first three decimals
+    
+### EqualSumChecker
+
+- Create a method that takes in three ints (firstNumber, secondNumber, thirdNumber) and returns a boolean
+    - True if firstNumber and secondNumber added together equal the thirdNumber
+    - False if firstNumber and secondNumber don't add up to the thirdNumber
+    
+### TeenNumberChecker
+
+- Create a method that takes in three ints (firstAge, secondAge, thirdAge) and returns a boolean
+    - True if one of those ages is within the range 13-19
+    - False if none of those ages is within the range 13-19
+- Create a method that takes in one int (forthAge) and returns a boolean
+    - True if the age within 13-19
+    - False if the age is not within 13-19

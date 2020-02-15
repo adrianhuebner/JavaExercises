@@ -19,6 +19,11 @@ public class Main {
 
         double firstDec = 2.457;
         double secondDec = 2.457;
-        DecimalCompartar.areEqualByThreeDecimalPlaces(firstDec, secondDec);
+        DecimalComparator.areEqualByThreeDecimalPlaces(firstDec, secondDec);
+
+        int firstNumber = 10;
+        int secondNumber = 20;
+        int thirdNumber = 30;
+        EqualSumChecker.hasEqualSum(firstNumber, secondNumber, thirdNumber);
     }
 }
