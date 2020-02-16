@@ -1,9 +1,12 @@
 package AllExercises;
 
 public class SecondsAndMinutes {
+
+    private static final String INVALID_VALUE_MESSAGE = "Invalid value";
+
     public static String getDurationString(long minutes, long seconds){
         if((minutes < 0) || (seconds < 0 || seconds > 59)){
-            return "Invalid Value";
+            return INVALID_VALUE_MESSAGE;
         }
         long totalHours = minutes / 60;
         long leftoverMinutes = minutes % 60;
@@ -25,9 +28,10 @@ public class SecondsAndMinutes {
 
         return hoursString + minutesString + secondsString;
     }
+
     public static String getDurationString(long seconds){
         if(seconds < 0){
-            return "Invalid Value";
+            return INVALID_VALUE_MESSAGE;
         }
         long totalMinutes = seconds / 60;
         long leftoverSeconds = seconds % 60;

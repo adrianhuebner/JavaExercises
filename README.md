@@ -44,7 +44,7 @@
     
 ## Method Overloading Challenges
 
-## SecondsAndMinutes
+### SecondsAndMinutes
 
 - Create a method that takes in two ints (minutes, seconds)
     - Validate that minutes is greater than 0 and that seconds is greater than 0 and smaller than 59
