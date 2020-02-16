@@ -41,3 +41,15 @@
 - Create a method that takes in one int (forthAge) and returns a boolean
     - True if the age within 13-19
     - False if the age is not within 13-19
+    
+## Method Overloading Challenges
+
+## SecondsAndMinutes
+
+- Create a method that takes in two ints (minutes, seconds)
+    - Validate that minutes is greater than 0 and that seconds is greater than 0 and smaller than 59
+    - Calculate how many hours, minutes and seconds equal the minutes and seconds passed to the method
+- Create a method with the same name but only takes in one int (seconds)
+    - Validate if it is greater than 0
+    - Calculate how many minutes are in the seconds value, call first method 
+- Call both methods to print to the console

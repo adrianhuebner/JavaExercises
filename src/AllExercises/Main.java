@@ -25,5 +25,11 @@ public class Main {
         int secondNumber = 20;
         int thirdNumber = 30;
         EqualSumChecker.hasEqualSum(firstNumber, secondNumber, thirdNumber);
+
+        String calculation = SecondsAndMinutes.getDurationString(80, 50);
+        System.out.println(calculation);
+
+        String basedOffSeconds = SecondsAndMinutes.getDurationString(3945L);
+        System.out.println(basedOffSeconds);
     }
 }
