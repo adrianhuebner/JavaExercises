@@ -42,6 +42,17 @@
     - True if the age within 13-19
     - False if the age is not within 13-19
     
+### MinutesToYearsAndDayCalculator
+
+- Create a method that takes in a long (minutes)
+    - Need to calculate the years and days from the minutes
+    
+### IntEqualityPrinter
+
+- Create a method that takes in three ints (firstNumber, secondNumber, thirdNumber)
+    - Check to see if numbers are equal or different
+        - Otherwise print "Neither all are equal or different"
+    
 ## Method Overloading Challenges
 
 ### SecondsAndMinutes
@@ -53,3 +64,11 @@
     - Validate if it is greater than 0
     - Calculate how many minutes are in the seconds value, call first method 
 - Call both methods to print to the console
+
+### AreaCalculator
+
+- Create a method that takes in a double (radius)
+    - Return a double that represents the area of a circle
+- Create a method with the same name that takes in two doubles (x, y) that represent sides of rectangle
+    - Return the area of a rectangle
+    
