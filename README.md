@@ -52,6 +52,11 @@
 - Create a method that takes in three ints (firstNumber, secondNumber, thirdNumber)
     - Check to see if numbers are equal or different
         - Otherwise print "Neither all are equal or different"
+       
+### PlayingCat 
+
+- Create a method that takes in a boolean (summer) and a int (temperature)
+    - Determine whether or not the cat is playing outside based on the weather
     
 ## Method Overloading Challenges
 
