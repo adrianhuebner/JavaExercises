@@ -84,3 +84,18 @@
 - Create a method that takes in an int (day)
     -  Use a switch states to print the day if the int parameter is 0-6
         - Other wise print out Invalid day
+        
+### NumberInWord
+
+- Create a method that takes in an int (number)
+    - Print the spelling of the word in a switch statement 1-9
+    - Any other number print out "Other", including negative numbers
+    
+### NumberOfDaysInMonth
+
+- Create a method that takes in an int (year)
+    - Check to see if the year is a leap year
+- Create a second method that takes in two ints (month, year)
+    - Method should return the number of days in the month
+    - In February check to see if the year is a leap year (refer to first method created)
+    
