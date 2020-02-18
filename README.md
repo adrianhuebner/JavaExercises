@@ -76,4 +76,11 @@
     - Return a double that represents the area of a circle
 - Create a method with the same name that takes in two doubles (x, y) that represent sides of rectangle
     - Return the area of a rectangle
-    
+ 
+## Switch Statement Challenges
+
+### DayOfTheWeek
+
+- Create a method that takes in an int (day)
+    -  Use a switch states to print the day if the int parameter is 0-6
+        - Other wise print out Invalid day

@@ -31,5 +31,8 @@ public class Main {
 
         String basedOffSeconds = SecondsAndMinutes.getDurationString(3945L);
         System.out.println(basedOffSeconds);
+
+        int dayIs = 5;
+        DayOfTheWeekChallenge.printDayOfTheWeek(dayIs);
     }
 }
