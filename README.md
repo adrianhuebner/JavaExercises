@@ -99,3 +99,14 @@
     - Method should return the number of days in the month
     - In February check to see if the year is a leap year (refer to first method created)
     
+## For Loop Challenges
+
+### SumOddRange
+
+- Create a method that takes in an int (number) that returns a boolean
+    - Check if number is > 0, if not return false
+    - If number is odd return true, otherwise return false
+- Create a second method that takes in two ints (start, end)
+    - Use a for loop that sums all odd numbers in that range, including the end and return the sum
+        - Call first method to check if each number is odd
+    
